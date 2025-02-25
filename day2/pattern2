@@ -1,0 +1,8 @@
+c=5
+for i in range(c):
+    for j in range(c):
+        if i==0 or i==c-1 or j==0 or j==c-1:
+            print("*",end=" ")
+        else:
+            print(" ",end=" ")
+    print()
