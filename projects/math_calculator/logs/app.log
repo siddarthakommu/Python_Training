@@ -1,0 +1,19 @@
+ERROR:root:Error calculating the expression: name 'exp' is not defined
+Traceback (most recent call last):
+  File "c:\Users\user\OneDrive\Desktop\math_calculator\main.py", line 21, in <module>
+    ans = calculator.calculate(expr)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\user\OneDrive\Desktop\math_calculator\utils\calculator.py", line 5, in calculate
+    for x in exp:
+             ^^^
+NameError: name 'exp' is not defined
+ERROR:root:2025-03-04 18:00:11 - ERROR - Invalid expression!
+INFO:root:2025-03-04 18:00:11 - INFO - Exiting program
+ERROR:root:2025-03-04 23:24:28 - ERROR - Invalid expression!
+INFO:root:2025-03-04 23:24:28 - INFO - Exiting program
+INFO:root:2025-03-05 08:15:37 - INFO - Valid expression: 7 - 5
+INFO:root:2025-03-05 08:15:37 - INFO - Result of the expression is: 2.0
+INFO:root:2025-03-05 08:15:37 - INFO - Exiting program
+INFO:root:2025-03-05 08:16:17 - INFO - Valid expression: 7 - 2
+INFO:root:2025-03-05 08:16:17 - INFO - Result of the expression is: 5.0
+INFO:root:2025-03-05 08:16:17 - INFO - Exiting program
